@@ -26,13 +26,44 @@
   </div>
   <div id="contact" class="modal">
     <div class="modal-content">
-      <h4>Contact Me</h4>
-      <h5><a href="mailto:aringber@gmail.com">ariingber@gmail.com</a></h5>
-      <h5><a href="tel:9177497002">1(917) 749-7002</a></h5>
-      <a class="waves-effect waves-blue light-blue lighten-1 btn" href="resume.pdf" download>Download Resume</a>
+      <div class="container">
+        <div class="row">
+          <div class="col s12">
+            <h5>Contact Me</h5>
+            <form action="https://formspree.io/ariingber@gmail.com"
+                method="POST" enctype="multipart/form-data">
+              <input type="hidden" name="_next" value="/contact" />
+              <div class="input-field col s12">
+                <input id="name" type="text" name="name">
+                <label for="name">Name</label>
+              </div>
+              <div class="input-field col s12">
+                <input id="email" type="email" class="validate" name="email">
+                <label for="email">Email</label>
+              </div>
+              <div class="input-field col s12">
+                <input id="Message" type="text" name="Message" length="120">
+                <label for="message">Message</label>
+              </div>
+              <div class="col s12">
+                <button class="btn waves-effect waves-light" type="submit">Submit
+                  <i class="material-icons right">send</i>
+                </button>
+              </div>
+            </form><br>
+            <!-- <a href="tel:9177497002">1(917) 749-7002</a> -->
+
+          </div>
+        </div>
+      </div>
+
+
+
     </div>
     <div class="modal-footer">
       <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">close</a>
+      <a class="btn waves-effect waves-light center" href="resume.pdf" download>Download My Resume</a>
+
     </div>
   </div>
 
@@ -70,7 +101,7 @@
               <h2 class="center light-blue-text"><i class="material-icons">code</i></h2>
               <h5 class="center">Recycle</h5>
 
-              <p class="light"> I treat my code like an Airbnb rental.  I keep it clean, I treat it with respect, I expect that someone will have to use it after me, and through these practices I create a sense of trust within the programming community.</p>
+              <p class="light"> I treat my code like an Airbnb rental.  I keep it clean, I treat it with respect, and I expect that someone will have to use it after me.</p>
             </div>
           </div>
 
@@ -88,7 +119,7 @@
               <h2 class="center light-blue-text"><i class="material-icons">thumb_up</i></h2>
               <h5 class="center">Collaborate</h5>
 
-              <p class="light">When I was a kid I wanted to work at NASA, but I didn’t want to be an astronaut. I wanted to be one of the people in mission control. I'm happiest when things are working and I've got a team to high five. Despite the description of the quintessential coder being a loner, I consider my knack for working with others one of my strongest assets as a programmer.</p>
+              <p class="light">When I was a kid I wanted to work at NASA, but I didn’t want to be an astronaut. I wanted to be one of the people in mission control. I'm happiest when high fiving the team.</p>
             </div>
           </div>
         </div>
@@ -121,7 +152,7 @@
             <h2 class="center light-blue-text"><i class="material-icons">group</i></h2>
             <h5 class="center">UX First</h5>
 
-            <p class="light">Great user experience is the end game of all my design and development. I pride my work on being intuitive and compelling.</p>
+            <p class="light">Great user experience is the end game of all my design and development. I pride my work on being both intuitive and compelling.</p>
           </div>
         </div>
 
@@ -144,7 +175,7 @@
 
     <div class="row">
       <div class="col s12 center">
-        <h4 class="header center black-text">PROJECTS</h4>
+        <h4 class="header center black-text">Websites and Web Apps</h4>
       </div>
     </div>
 
@@ -317,7 +348,7 @@
 
        <div class="row">
         <div class="col s12" style=" margin-top: -23px;background-color:#d1d1d1;">
-          <h6 style="color:black; padding:10px; font-weight:500;">PROFESSIONAL EXPERIANCE</h6>
+          <h6 style="color:black; padding:10px; font-weight:500;">PROFESSIONAL EXPERIENCE</h6>
         </div>
       </div>
 
