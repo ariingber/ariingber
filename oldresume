@@ -1,0 +1,134 @@
+<div class="container" ><br>
+  <h4 class="header center black-text">RESUME</h4><br>
+    <center id="resume">
+      <div class="row">
+       <div class="col s12"><h5 style="margin-top:20px;">ARI INGBER</h5></div>
+       <div class="col s12 toplinks" style="margin-top:-20px; font-size:12px; color:black; font-style:italic;"><p><a target="_blank" href="https://github.com/ariingber">github.com/ariingber </a> - <a target="_blank" href="mailto:ariingber@gmail.com?Subject=From%20MyResume">ariingber@gmail.com </a> - <a target="_blank" href="https://ariingber.github.io/ariingber/"> ariingber.com </a> - <a target="_blank" href="https://www.linkedin.com/in/ariingber">linkedin.com/in/ariingber </a></p></div>
+       <div style="background-color:black; height:1px; margin-top:-2px;" class="col s12"></div>
+     </div>
+     <div class="row">
+      <div class="col s12" style=" margin-top: -23px;background-color:#5c5c5c;">
+        <h6 style="color:white; margin-top:10px; font-size:20px;">Front-end Web Developer | UX Designer</h6>
+        <p style="color:white; margin-top:0px; font-size:10px;">Web Development ~ UX Design ~ Project Management</p>
+      </div>
+    </div><br>
+     <div class="row">
+       <div class="view">
+         <div class="col s4" style="background-color:#d1d1d1;">
+          <p class="greyTextBox">
+            Web Development<br>
+            UX Design<br>
+            Application Development<br>
+            Technical Troubleshooting<br>
+            Team Collaboration<br>
+          </p>
+        </div>
+        <div id="mission" class="col s8 mission" style="text-align:left;">
+         Creative user experience and design centric Front-end Web Developer with experience building beautiful, user friendly, mobile responsive websites looking for next exciting project.<br><br>
+
+        </div>
+      </div>
+    </div><br><br>
+     <div class="row">
+      <div class="col s12" style=" margin-top: -23px;background-color:#d1d1d1;">
+        <h6 style="color:black; padding:10px; font-weight:500;">TECHNICAL SKILLS</h6>
+      </div>
+    </div>
+
+    <div id="tech">
+      <div class="row">
+       <div style="text-align:center; font-weight:400;"> JavaScript, HTML5, CSS3, JQuery, Ruby on Rails, Materiaize, Bootstrap, chart.js, SASS, GitHub, UX Design, Skeleton
+       </div><br>
+      </div>
+
+
+
+
+     <div class="row">
+      <div class="col s12" style=" margin-top: -23px;background-color:#d1d1d1;">
+        <h6 style="color:black; padding:10px; font-weight:500;">PROFESSIONAL EXPERIENCE</h6>
+      </div>
+    </div>
+
+    <div id="exp">
+
+      <div class="row">
+       <div class="col s8" >
+         <p style="text-align:left; font-weight:600;">COHERO HEALTH, <span style="font-weight:300;">New York, NY</span></p>
+         <p style="text-align:left; font-weight:500; margin-top:-11px;">DEVELOPER | DESIGNER</p>
+        </div>
+        <div class="col s4" >
+          <p style="text-align:right;">June 2016 - Present</p>
+        </div>
+      </div>
+      <sdiv class="row" style="margin-top:-20px;">
+       <div class="col s12">
+         <div style="margin-top:-10px;">
+           <div style="text-align:left;">▪ CoHero Health's sensor-based technology improves medication adherence and care coordination between patients and their care providers. I developed their website <a target="_blank" href="http://coherohealth.com/"> Coherohealth.com</a> and an <a target="_blank" href="https://ariingber.github.io/roi/">ROI Calculator</a> for them that allows for businesses to quickly visualize how much they will save yearly based on the distribution of CoHero devices to those they insure.
+           </div>
+        </div>
+       </div>
+     </div>
+
+     <!-- <div style="margin-top:-15px;" class="row">
+      <div class="col s8" >
+        <p style="text-align:left; font-weight:600;">PAT MURRAY GUITARS, <span style="font-weight:300;">New York, NY</span></p>
+        <p style="text-align:left; font-weight:500; margin-top:-11px;">DEVELOPER | DESIGNER</p>
+       </div>
+       <div class="col s4" >
+         <p style="text-align:right;">September 2016 - Present</p>
+       </div>
+     </div>
+
+     <div class="row" style="margin-top:-20px;">
+      <div class="col s12">
+        <div style="margin-top:-10px;">
+          <div style="text-align:left;">▪ Designed and created fully responsive ecommerce website for the <a target="_blank" href="https://ariingber.github.io/patmurrayguitars/">Pat Murray Guitars</a>.
+          </div>
+       </div>
+      </div>
+    </div> -->
+
+   <div class="row" style="margin-top:-10px;">
+    <div class="col s8" >
+      <p style="text-align:left; font-weight:600;">THE GREEN BUILDING, <span style="font-weight:300;">New York, NY</span></p>
+      <p style="text-align:left; font-weight:500; margin-top:-11px;">EVENT PRODUCER</p>
+     </div>
+     <div class="col s4" >
+       <p style="text-align:right;">2012 - June 2016</p>
+     </div>
+   </div>
+   <div class="row" style="margin-top:-20px;">
+    <div class="col s12">
+      <div style="margin-top:-10px;">
+        <div style="text-align:left;">▪	Oversaw coordination and logistics for events, including weddings and company parties of 175 to 500 guests.</div>
+        <div style="text-align:left;">▪	Managed venue staff at <a target="_blank" href="http://www.thegreenbuildingnyc.com/">Green Building</a> and <a target="_blank" href="http://www.501union.com/gallery/">501 Union.</a></div>
+        <div style="text-align:left;">▪	Served as event liaison for vendors.</div>
+     </div>
+    </div>
+  </div>
+</div><br>
+
+
+<div class="row">
+  <div class="col s12" style=" margin-top: -23px;background-color:#d1d1d1;">
+    <h6 style="color:black; padding:10px; font-weight:500;">EDUCATION</h6>
+  </div>
+</div><br>
+<div class="row">
+   <div class="col s12">
+     <h6 style="text-align:center;">
+       <span style="font-weight:500;">Bachelor of Arts in Music Technology,</span> <span>NEW YORK UNIVERSITY, New York, NY</span><br><br>
+       Graduate Foundations Certificate, COLUMBIA UNIVERSITY, New York, NY<br><br>
+       Certification of Completion, GENERAL ASSEMBLY for Web Development Immersive, New York, NY <br><br>
+       Certification of Completion, GENERAL ASSEMBLY for UX Design Course, New York, NY
+     </h6>
+   </div>
+ </div>
+
+
+  </centre>
+  <div style="width:100%; text-align:center;">
+    <a class="waves-effect waves-blue light-blue lighten-1 btn" href="resume.pdf" download>Download Resume</a>
+  </div><br>
+</div>
