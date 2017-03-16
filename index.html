@@ -19,10 +19,14 @@
     <div class="modal-content">
 
       <h4>About</h4>
-      <div>
+      <div style="float:left;">
         <img style="width:200px;" src="ari.jpg" alt="">
       </div>
-      <span>A bunch of text</span>
+      <span>
+        I am a frontend web developer and UI/UX designer with experience building user friendly, mobile responsive websites and applications.  I have certifications from General Assembly for both full stack web development and UX design.  I make sure my work looks and functions correctly cross-browsers and on all devices.
+        <br><br>
+        I enjoy both design and development so I am primarily looking for frontend development or design work.
+      </span>
 
     </div>
     <div class="modal-footer">
@@ -31,26 +35,41 @@
   </div>
   <div id="contact" class="modal">
     <div class="modal-content">
-      <h4>Contact</h4>
-      <p>Email me anytime at ariingber@gmail.com</p>
+      <h4>Send a Message</h4>
+      <div href="#!" style="font-size:15px;">Or email: ariingber@gmail.com</div>
+      <br>
+      <form action="https://formspree.io/ariingber@gmail.com"
+          method="POST" enctype="multipart/form-data">
+        <input type="hidden" name="_next" value="/contact" />
+        <div class="input-field col s12">
+          <input id="name" type="text" name="name">
+          <label for="name">Name</label>
+        </div>
+        <div class="input-field col s12">
+          <input id="email" type="email" class="validate" name="email" require>
+          <label for="email">Email</label>
+        </div>
+        <div class="input-field col s12">
+          <input id="message" type="text" name="message" length="120">
+          <label for="message">Message</label>
+        </div>
+        <br>
+        <div class="col s12">
+          <button class="btn waves-effect waves-light" type="submit">Submit
+            <i class="material-icons right">send</i>
+          </button>
+        </div>
+      </form>
     </div>
     <div class="modal-footer">
       <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+
     </div>
   </div>
   <div id="resume" class="modal">
     <div class="modal-content">
       <h4>Resume</h4>
-      <p>Please feel free to download my resume or click here for a <a class="modal-action modal-close" href="#physResume">quick-look.</a></p>
-    </div>
-    <div class="modal-footer">
-      <a href="#!" class=" modal-action modal-close btn-flat">Close</a>
-      <a href="AriIngberResume.pdf" download class=" btn-flat">Download</a>
-    </div>
-  </div>
-  <div id="physResume" class="modal">
-    <div class="modal-content">
-      <iframe src="https://docs.google.com/document/d/1ftvoFKcr0IpDrlEMjkl4rSvAyi9hE9p4EF4Xk-J1a44/edit?usp=sharing" style="width:600px; height:500px;" frameborder="0"></iframe>
+      <p>Please feel free to download my resume or click here for a <a target="_blank" class="modal-action modal-close" href="AriIngberResume.pdf">quick-look.</a></p>
     </div>
     <div class="modal-footer">
       <a href="#!" class=" modal-action modal-close btn-flat">Close</a>
@@ -81,7 +100,7 @@
 
     <br><br><br>
     <!--   portfolio section  -->
-    <div class="row" id="portfolio">
+    <div class="row section scrollspy" id="portfolio">
       <div class="col s12 m12 l4">
         <div class="card">
           <div class="card-image waves-effect waves-block waves-light">
@@ -93,7 +112,7 @@
           </div>
           <div class="card-reveal">
             <span class="card-title grey-text text-darken-4">COHERO<i class="material-icons right">close</i></span>
-            <p>hello hello</p>
+            <p>Developed Cohero Health’s web based assets including public facing website, business to business website, ROI calculator, online screener, consent form, and clinical survey.  <br><br>Implemented designs delivered from UX and design team and contributed to some design decisions.</p>
             <p><a target="_blank" href="http://coherohealth.com/">LINK</a></p>
           </div>
         </div>
@@ -110,7 +129,7 @@
           </div>
           <div class="card-reveal">
             <span class="card-title grey-text text-darken-4">ROI CALCULATOR<i class="material-icons right">close</i></span>
-            <p>Calculates yearly return on investment per patient for <a href="http://www.coherohealth.com/">cohero health</a> a <a href="http://www.grandcentraltech.com/"> grandcentraltech </a> company.  Built with javascript, jQuery, materialize and chart.js</p>
+            <p>Calculates yearly return on investment per patient for <a href="http://www.coherohealth.com/">Cohero Health</a> a <a href="http://www.grandcentraltech.com/"> Grand Central Tech </a> company.  Built with javascript, jQuery, materialize and chart.js</p>
             <p><a target="_blank" href="https://ariingber.github.io/roi/">LINK</a></p>
           </div>
         </div>
@@ -127,7 +146,7 @@
           </div>
           <div class="card-reveal">
             <span class="card-title grey-text text-darken-4"> Happy HeART Studio<i class="material-icons right">close</i></span>
-            <p>UX Design and Development of Public Website</p>
+            <p>UX Design, development, and deployment of Happy HeART Studio's public facing website.</p>
             <p><a target="_blank" href="https://ariingber.github.io/ilana/">LINK</a></p>
           </div>
         </div>
@@ -184,7 +203,7 @@
           </div>
           <div class="card-reveal">
             <span class="card-title grey-text text-darken-4">Par Murray Guitars<i class="material-icons right">close</i></span>
-            <p>Designerd and Developed Public E-Commerce Site</p>
+            <p>Designerd and developed public e-commerce site for Pat Murray Guitars.</p>
             <p><a target="_blank" href="https://ariingber.github.io/patmurrayguitars/">LINK</a></p>
           </div>
         </div>
@@ -215,7 +234,7 @@
         <a target="_blank" href="https://www.linkedin.com/in/ariingber" style="font-size:35px; color:white; margin-right:10px;"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
   			<a target="_blank" href="https://github.com/ariingber"  style="font-size:35px; color:white; margin-right:10px;"><i class="fa fa-github-square" aria-hidden="true"></i></a>
   			<a target="_blank" href="https://jsfiddle.net/user/ariingber/fiddles/"  style="font-size:35px; color:white; margin-right:10px;"><i class="fa fa-jsfiddle" aria-hidden="true"></i></a>
-  			<a target="_blank" href="mailto:ariingber@gmail.com" style="font-size:35px; color:white; margin-right:10px;"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+  			<a href="#contact" style="font-size:35px; color:white; margin-right:10px;"><i class="fa fa-envelope" aria-hidden="true"></i></a>
       </div>
     </div>
   </footer>
@@ -228,6 +247,7 @@
   $( document ).ready(function(){
     $(".button-collapse").sideNav();
     $('.modal').modal();
+    $('.scrollspy').scrollSpy({scrollOffset: 0});
 
     $('#menuBox').hover(function(){
             $('.menuLine').addClass('hovered');
