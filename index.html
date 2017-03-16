@@ -11,194 +11,95 @@
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <script src="https://use.fontawesome.com/58567dd66f.js"></script>
-  <link href='https://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
 </head>
 <body>
-  <!-- Modal -->
-  <div class="navbar-fixed">
-    <nav>
-      <div class="nav-wrapper">
-        <ul class="right hide-on-small-only">
-          <li><a class="light-blue lighten-1 btn waves-effect waves-light btn modal-trigger" href="#contact">contact</a></li>
-        </ul>
-      </div>
-    </nav>
-  </div>
-  <div id="contact" class="modal">
+  <!-- ##########MODALS############# -->
+  <div id="about" class="modal">
     <div class="modal-content">
-      <div class="container">
-        <div class="row">
-          <div class="col s12">
-            <h5>Contact Me</h5>
-            <form action="https://formspree.io/ariingber@gmail.com"
-                method="POST" enctype="multipart/form-data">
-              <input type="hidden" name="_next" value="/contact" />
-              <div class="input-field col s12">
-                <input id="name" type="text" name="name">
-                <label for="name">Name</label>
-              </div>
-              <div class="input-field col s12">
-                <input id="email" type="email" class="validate" name="email">
-                <label for="email">Email</label>
-              </div>
-              <div class="input-field col s12">
-                <input id="Message" type="text" name="Message" length="120">
-                <label for="message">Message</label>
-              </div>
-              <div class="col s12">
-                <button class="btn waves-effect waves-light" type="submit">Submit
-                  <i class="material-icons right">send</i>
-                </button>
-              </div>
-            </form><br>
-            <!-- <a href="tel:9177497002">1(917) 749-7002</a> -->
 
-          </div>
-        </div>
+      <h4>About</h4>
+      <div>
+        <img style="width:200px;" src="ari.jpg" alt="">
       </div>
-
-
+      <span>A bunch of text</span>
 
     </div>
     <div class="modal-footer">
-      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">close</a>
-      <a class="btn waves-effect waves-light center" href="resume.pdf" download>Download My Resume</a>
-
+      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
     </div>
   </div>
+  <div id="contact" class="modal">
+    <div class="modal-content">
+      <h4>Contact</h4>
+      <p>Email me anytime at ariingber@gmail.com</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+    </div>
+  </div>
+  <div id="resume" class="modal">
+    <div class="modal-content">
+      <h4>Resume</h4>
+      <p>Please feel free to download my resume or click here for a <a class="modal-action modal-close" href="#physResume">quick-look.</a></p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close btn-flat">Close</a>
+      <a href="AriIngberResume.pdf" download class=" btn-flat">Download</a>
+    </div>
+  </div>
+  <div id="physResume" class="modal">
+    <div class="modal-content">
+      <iframe src="https://docs.google.com/document/d/1ftvoFKcr0IpDrlEMjkl4rSvAyi9hE9p4EF4Xk-J1a44/edit?usp=sharing" style="width:600px; height:500px;" frameborder="0"></iframe>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close btn-flat">Close</a>
+      <a href="AriIngberResume.pdf" download class=" btn-flat">Download</a>
+    </div>
+  </div>
+  <!-- ###################################### -->
 
+  <div class="container">
+    <div class="row">
+      <div id="menuBox" style="margin:40px 0 0 0;">
+        <a class='dropdown-button' href='#' data-activates='dropdown1'>
+          <div class="menuLine" style="width:70px; height:5px; text-align:center;"></div>
+          <div class="menuLine" style="width:70px; height:5px; text-align:center;"></div>
+          <div class="menuLine" style="width:70px; height:5px; text-align:center;"></div>
+        </a>
+      </div>
 
-  <div class="top" style="margin-top:-45px; width:100%; height:250px; text-align:center;">
+      <ul id='dropdown1' class='dropdown-content'>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+      </ul>
+    </div>
+    <h1 class="center col s12" style="font-size:53px;">ARI INGBER</h1>
+    <h5 class="center col s12" style="font-weight:100; margin-top:-20px;">DESIGNER | DEVELOPER</h5>
+
     <br><br><br>
-    <h1 class="header center black-text" style="font-size:60px;" >ARI INGBER</h1>
-    <h5 style="margin-top:-23px;"class="header center black-text">DEVELOPER | DESIGNER</h5>
-  </div>
-
-  <div style="text-align:center; margin-top:-50px; font-size:40px;">
-    <i class="fa fa-arrow-down" aria-hidden="true"></i> <i class="fa fa-arrow-down" aria-hidden="true"></i> <i class="fa fa-arrow-down" aria-hidden="true"></i> <i class="fa fa-arrow-down" aria-hidden="true"></i> <i class="fa fa-arrow-down" aria-hidden="true"></i> <i class="fa fa-arrow-down" aria-hidden="true"></i> <i class="fa fa-arrow-down" aria-hidden="true"></i> <br>
-    <i class="fa fa-arrow-down" aria-hidden="true"></i> <i class="fa fa-arrow-down" aria-hidden="true"></i> <i class="fa fa-arrow-down" aria-hidden="true" style="color:#d95c5c;"></i> <i class="fa fa-arrow-down" aria-hidden="true"></i> <i class="fa fa-arrow-down" aria-hidden="true"></i> <br>
-    <i class="fa fa-arrow-down" aria-hidden="true"></i> <i class="fa fa-arrow-down" aria-hidden="true"></i> <i class="fa fa-arrow-down" aria-hidden="true"></i> <br>
-    <i class="fa fa-arrow-down" aria-hidden="true"></i> <br>
-  </div><br>
-  <br>
-
-
-  <div class="pink" style="width:100%; height:2px;">
-  </div>
-
-
-
-
-  <div class="container">
-    <div class="section" >
-      <!--   Icon Section   -->
-      <div class="row">
-        <h4 class="header center black-text">FRONT-END WEB DEVELOPER</h4><br>
-        <div style=margin-top:-35px;>
-          <div class="col s12 m4">
-            <div class="icon-block">
-              <h2 class="center light-blue-text"><i class="material-icons">code</i></h2>
-              <h5 class="center">Recycle</h5>
-
-              <p class="light"> I treat my code like an Airbnb rental.  I keep it clean, I treat it with respect, and I expect that someone will have to use it after me.</p>
-            </div>
-          </div>
-
-          <div class="col s12 m4">
-            <div class="icon-block">
-              <h2 class="center light-blue-text"><i class="material-icons">done</i></h2>
-              <h5 class="center">Get It Done</h5>
-
-              <p class="light">I love solving problems that at the beginning seem unsolvable. I am tremendously competitive, not with my peers but with tough challenges.</p>
-            </div>
-          </div>
-
-          <div class="col s12 m4">
-            <div class="icon-block">
-              <h2 class="center light-blue-text"><i class="material-icons">thumb_up</i></h2>
-              <h5 class="center">Collaborate</h5>
-
-              <p class="light">When I was a kid I wanted to work at NASA, but I didn’t want to be an astronaut. I wanted to be one of the people in mission control. I'm happiest when high fiving the team.</p>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </div><br>
-
-
-  <div class="pink" style="width:100%; height:2px;">
-  </div>
-  <!-- <img class="responsive-img" src="line2.jpg" style="box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"> -->
-  <div class="container">
-    <div class="section">
-
-      <!--   Icon Section   -->
-      <div class="row">
-        <h4 class="header center black-text">UX DESIGNER</h4>
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center light-blue-text"><i class="material-icons">aspect_ratio</i></h2>
-            <h5 class="center">Keep It Simple</h5>
-
-            <p class="light">I believe that less isn't always more but it usually is.</p>
-          </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center light-blue-text"><i class="material-icons">group</i></h2>
-            <h5 class="center">UX First</h5>
-
-            <p class="light">Great user experience is the end game of all my design and development. I pride my work on being both intuitive and compelling.</p>
-          </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center light-blue-text"><i class="material-icons">hearing</i></h2>
-            <h5 class="center">Communicate</h5>
-            <p class="light">Communication is always at the core of my work as a designer. I prioritize understanding the needs of a client’s users, the ideas a client means to communicate, and try to synthesize these before starting my first mock ups.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="pink" style="width:100%; height:2px;">
-  </div>
-  <div class="section no-pad-bot" id="index-banner">
-    <div class="container">
-  <div class="section">
-
-    <div class="row">
-      <div class="col s12 center">
-        <h4 class="header center black-text">Websites and Web Apps</h4>
-      </div>
-    </div>
-
-    <!--   Icon Section   -->
-    <div class="row">
-
-      <div class="col s12 m4">
+    <!--   portfolio section  -->
+    <div class="row" id="portfolio">
+      <div class="col s12 m12 l4">
         <div class="card">
           <div class="card-image waves-effect waves-block waves-light">
             <img class="activator" src="cohero.jpg">
           </div>
           <div class="card-content">
-            <span class="card-title activator grey-text text-darken-4"> COHERO HEALTH <i class="material-icons right">more_vert</i></span>
+            <span class="card-title activator grey-text text-darken-4"> COHERO <i class="material-icons right">more_vert</i></span>
             <p><a target="_blank" href="http://coherohealth.com/">LINK</a></p>
           </div>
           <div class="card-reveal">
-            <span class="card-title grey-text text-darken-4">COHERO HEALTH<i class="material-icons right">close</i></span>
+            <span class="card-title grey-text text-darken-4">COHERO<i class="material-icons right">close</i></span>
             <p>hello hello</p>
             <p><a target="_blank" href="http://coherohealth.com/">LINK</a></p>
           </div>
         </div>
       </div>
 
-      <div class="col s12 m4">
+      <div class="col s12 m12 l4">
         <div class="card">
           <div class="card-image waves-effect waves-block waves-light">
             <img class="activator" src="roi.JPG">
@@ -215,13 +116,13 @@
         </div>
       </div>
 
-      <div class="col s12 m4">
+      <div class="col s12 m12 l4">
         <div class="card">
           <div class="card-image waves-effect waves-block waves-light">
-            <img class="activator" src="heart.jpg">
+            <img class="activator" src="hh.jpg">
           </div>
           <div class="card-content">
-            <span class="card-title activator grey-text text-darken-4"> Happy HeART <i class="material-icons right">more_vert</i></span>
+            <span class="card-title activator grey-text text-darken-4"> HAPPY HEART <i class="material-icons right">more_vert</i></span>
             <p><a target="_blank" href="https://ariingber.github.io/ilana/">LINK</a></p>
           </div>
           <div class="card-reveal">
@@ -235,7 +136,7 @@
 
     <div class="row">
 
-      <div class="col s12 m4">
+      <div class="col s12 m12 l4">
         <div class="card">
           <div class="card-image waves-effect waves-block waves-light">
             <img class="activator" src="textbub2.jpg">
@@ -252,7 +153,7 @@
         </div>
       </div>
 
-      <div class="col s12 m4">
+      <div class="col s12 m12 l4">
         <div class="card">
           <div class="card-image waves-effect waves-block waves-light">
             <img class="activator" src="pixelogue.jpg">
@@ -272,13 +173,13 @@
 
 
 
-      <div class="col s12 m4">
+      <div class="col s12 m12 l4">
         <div class="card">
           <div class="card-image waves-effect waves-block waves-light">
             <img class="activator" src="PatY.jpg">
           </div>
           <div class="card-content">
-            <span class="card-title activator grey-text text-darken-4">Pat Murray <i class="material-icons right">more_vert</i></span>
+            <span class="card-title activator grey-text text-darken-4">PAT MURRAY <i class="material-icons right">more_vert</i></span>
             <p><a target="_blank" href="https://ariingber.github.io/patmurrayguitars/">LINK</a></p>
           </div>
           <div class="card-reveal">
@@ -295,26 +196,15 @@
 </div>
   </div><br>
   <div style="width:100%; text-align:center;">
-    <a class="waves-effect waves-blue light-blue lighten-1 btn" href="resume.pdf" download>Download Resume</a>
+    <a class="waves-effect waves-blue white black-text lighten-1 btn" href="AriIngberResume.pdf" download><span style="font-weight:100;">Download Resume</span></a>
   </div><br>
-
-  <div class="pink" style="width:100%; height:2px;">
-  </div>
-
 
 </div>
 
-  <footer style="" class="page-footer">
+  <footer style="background:white;" class="page-footer">
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
-          <!-- <a href="https://drive.google.com/file/d/0B7rPzDgFXxf1dG81R2VWVVdmNXc/view?usp=sharing">
-            <h5 class="white-text">RESUME</h5>
-          </a> -->
-
-            <p class="grey-text text-lighten-4">ariingber@gmail.com</p>
-
-
         </div>
 
 
@@ -332,9 +222,28 @@
 
 
   <!--  Scripts-->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="js/materialize.js"></script>
-  <script src="js/init.js"></script>
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"> </script>
+  <script src="js/materialize.min.js"></script>
+  <script>
+  $( document ).ready(function(){
+    $(".button-collapse").sideNav();
+    $('.modal').modal();
+
+    $('#menuBox').hover(function(){
+            $('.menuLine').addClass('hovered');
+        },
+        function(){
+            $('.menuLine').removeClass('hovered');
+        });
+
+    })
+
+    $('#box').addClass('addBoxShadow');
+  </script>
+
 
   </body>
+
+
+  </div>
 </html>

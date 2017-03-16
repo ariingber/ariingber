@@ -6,6 +6,12 @@
  * Made By MaterializeCSS.com
  */
 
+ body {
+   font-family: 'Open Sans', sans-serif;
+   -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+ }
+
  .view {
   font-size: 1.4vw;
 }
@@ -74,7 +80,48 @@ img {
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
 
-/*.top {
-  background-image: url("../peach1.jpg");
-  background-size: cover;
-}*/
+.test {
+  color: white;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.12);
+
+}
+
+
+@-webkit-keyframes addBoxShadow {
+  0%   { box-shadow: none; }
+  100% { box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); }
+}
+@-moz-keyframes addBoxShadow {
+  0%   { box-shadow: none; }
+  100% { box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); }
+}
+@-o-keyframes addBoxShadow {
+  0%   { box-shadow: none; }
+  100% { box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); }
+}
+@keyframes addBoxShadow {
+  0%   { box-shadow: none; }
+  100% { box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); }
+}
+
+.menuLine {
+  margin: 12px 0;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-animation: addBoxShadow 2s forwards; /* Safari 4+ */
+  -moz-animation:    addBoxShadow 2s forwards; /* Fx 5+ */
+  -o-animation:      addBoxShadow 2s forwards; /* Opera 12+ */
+  animation:         addBoxShadow 2s forwards; /* IE 10+, Fx 29+ */
+}
+
+.menuLine.hovered, .menuLine:focus, .menuLine:active {
+  background: turquoise;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
